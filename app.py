@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 import joblib
-import scikit-learn
+import sklearn
 
 # Load the trained model
 model = joblib.load(r"logistic_regression.joblib")
