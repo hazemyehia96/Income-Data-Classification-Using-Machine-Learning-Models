@@ -4,7 +4,7 @@ import pandas as pd
 import joblib
 
 # Load the trained model
-model = joblib.load(r"C:/Users/Hazem/Final Project/logistic_regression.joblib")
+model = joblib.load(r"logistic_regression.joblib")
 
 # Title of the app
 st.title('Income Prediction :ship:')
