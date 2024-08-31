@@ -4,7 +4,7 @@ import pandas as pd
 import joblib
 
 # Load the trained model
-model = joblib.load("logistic_regression.joblib")
+model = joblib.load(r"https://github.com/hazemyehia96/Income-Data-Classification-Using-Machine-Learning-Models/blob/main/logistic_regression.joblib")
 
 # Title of the app
 st.title('Income Prediction :ship:')
